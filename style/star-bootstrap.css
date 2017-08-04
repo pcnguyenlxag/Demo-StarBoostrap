@@ -1,0 +1,206 @@
+* {
+	font-family: 'PT Sans Caption', sans-serif;
+	margin: auto;
+	text-align: center;
+	line-height: 1.5;
+}
+hr {
+	width: 100px;
+	margin: 0 auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #b84d45;
+}
+li a .btn .btn-secondary .lg {
+	display: inline-grid;
+}
+h2, h4  {
+	margin: 0 0 8px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1.1;
+}
+p {
+	margin: 0 0 10px;
+}
+/*Header*/
+.header-part {
+	padding: 125px 0;
+	color: white;
+	background-color: #b84d45;
+    background-image: url(../images/bg.png);
+}
+a.image-header {
+    margin: 34px auto 0;
+    display: inline-block;
+}
+.image-header img {
+    width: 242px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+.main-header {
+	font-size: 600%;
+	font-weight: bolder;
+	line-height: 1.2;
+}
+.sub-header {
+	font-size: 32px;
+	margin: 0px;
+}
+.button-header {
+	margin-top: 25px;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+/*Section*/
+.section-park {
+	width: 1140px; /*kích thước phần thân web*/
+    margin: auto;
+}
+.head-intro {	/*giới thiệu chữ đậm*/
+	letter-spacing: 0px;
+	padding: 50px 0 25px;
+	font-weight: 300;
+}
+.sub-intro {
+	font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    padding: 0 14%;
+}
+/*CSS section theme*/
+.theme {
+	padding: 50px 0; 
+}
+.card img {
+    width: 100%;
+    border-style: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.card-width {
+	width: 347px;
+	margin-bottom: 30px;
+    padding: 0px 15px;
+    border: 1px;
+    float: left;
+}
+.card {  
+	background: whitesmoke;
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+    border-radius: 4px;
+    line-height: 1.1;
+    box-shadow: 0 0 1px whitesmoke;
+}
+.text-card {
+	padding: 24px 24px 0 24px;
+}
+.button-card {
+    padding: 12px 24px 24px 24px;
+}
+.main-text {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.sub-text {
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 0;
+}
+/*CSS phần premium(phần cart dưới)*/
+.premium {
+	padding: 30px 0;
+}
+.cart-premium {
+	padding-top: 30px;
+}
+/*CSS footer part*/
+.footer-part {
+	clear: both;
+}
+.footer-intro {
+	background-color: #b84d45;
+    background-image: url(../images/bg.png);
+    color: white;
+    padding: 50px 0;
+}
+.footer-intro h2 {
+	font-size: 32px;
+}
+.footer-intro h4{
+    font-size: 20px;
+    line-height: 22px;
+}
+/*phần email-footer*/
+.email-footer {
+	margin: 30px auto 0;
+	display: inline-flex;
+}
+
+/*hộp text email*/
+.box-text {
+	font-size: 20px;
+	border: none; 
+	padding: 12px 24px;
+	background-color: #ffffff;
+	border-bottom: 3px solid #ccc;
+	border-radius: 4px;
+	width: 350px;
+	color: #464a4c;
+	border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+input.box-text {
+    text-align: start;
+}
+input[type=email]:focus { outline: none;}
+
+/*nút subscribe*/
+.button-submit {
+    border-left: 2px solid #ccc;
+    display: flex;
+}
+.btn.btn-secondary.sm.subscribe-btn.subscribe-btn {
+	display: flex;
+	border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 19.5px 24px;
+    margin-left:-1px;
+    font-size: 12px;
+    font-weight: 700;
+}
+/*phần footer-social*/
+.footer-main {
+	width: 1140px;
+	max-width: 100%;
+	padding: 50px 0;
+}
+.footer-social {
+	margin: 50px auto 0;
+}
+/*thuộc tính phần nền tròn của mạng xã hội*/ 
+.inline{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin: 0 10px; 
+	line-height: 50px;
+	font-size: 25px;
+}
+a.a-color {	color: white;}/* đổi màu font-awesome sang trắng*/
+
+.git {	background-color: #333333; } /*màu nền các biểu tượng xã hội*/
+.twitter {	background-color: #1da1f2;}
+.face {	background-color: #3b5998;}
+.gplus {	background-color: #dd4b39;}
+
+/*phần footer-about (phần chữ cuối)*/
+.footer-about {
+	font-family:'Libre Franklin', sans-serif;
+	font-size: 16px;
+}
